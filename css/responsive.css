@@ -1,0 +1,30 @@
+@media screen and (max-width:375px) {
+
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 100%;
+
+    }
+    .card-sedan {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .card-suv {
+        border-radius: 0;
+    }
+
+    .card-luxury {
+        border-radius: 0 0 10px 10px;
+    }
+
+    .card-img{
+        margin-top: 20px;
+    }
+    .card-text{
+        margin-bottom: 0px;
+    }
+
+    
+}
